@@ -3,6 +3,7 @@ for i in range(5):
     for j in range(1, i + 2):
         print(j, end = " ")
     print()
+    print()
 
 #NUMBER 2
 number = int(input("input: "))
@@ -15,6 +16,7 @@ print(sum)
 for i in range(5, 0, -1):
     for j in range(1, i + 1):
         print(j, end = " ")
+    print()
     print()
 
 
