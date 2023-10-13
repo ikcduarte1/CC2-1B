@@ -6,9 +6,13 @@ for i in range(5):
     print()
 
 #NUMBER 2
-number = int(input("input: "))
+n = int(input("input: "))
 sum = 0
-for i in range(number + 1):
+for i in range(1, n + 1):
+    if i == n:
+        print(i, end=" = ")
+    else:
+        print(i, end=" + ")
     sum += i
 print(sum)
 
